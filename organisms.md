@@ -14,7 +14,7 @@
 ~~~javascript
       20 |
       21 |   const handleErrorSearch = () => {
-        > 22 |     openToastRef?.current?.publish();
+    > 22 |     openToastRef?.current?.publish();
          |                            ^
       23 |     setOpenToast(true);
       24 |   };

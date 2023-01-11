@@ -43,25 +43,7 @@ Existe um ***h5*** entre uma tag ***p***
         at p        
   ~~~
 
-  React está reclamando sobre propriedades de estilo não suportadas.
-  ~~~javascript
-  console.error
-      Warning: Unsupported style property &:first-child. Did you mean &:firstChild?
-          at div
-          at CardRender (/home/drislainefaro/Work/admin-portal-beescare-l2-tickets-mfe/
-          src/components/pages/TicketPriorization/components/ByGroups/components/
-          CardExpiringIn7Days/CardExpiringIn7Days.tsx:50:46)
-  ~~~
-  ~~~javascript
-  console.error
-      Warning: Unsupported style property &:last-child. Did you mean &:lastChild?
-          at div
-          at CardRender (/home/drislainefaro/Work/admin-portal-beescare-l2-tickets-mfe/
-          src/components/pages/TicketPriorization/components/ByGroups/components/
-          CardExpiringIn7Days/CardExpiringIn7Days.tsx:50:46)
-  ~~~
-
-lastChildObserver não é uma função
+**lastChildObserver** não é uma função
 ~~~html
 console.error
   Error: Uncaught [TypeError: lastChildObserver.unobserve is not a function]
@@ -106,17 +88,6 @@ Existe uma ***div*** entre uma tag ***p***.
           src/components/pages/TicketDetails/components/BadgeContainer/BadgeContainer.tsx:16:3)
           at div
         at p
-
-  ~~~
-
-React está reclamando sobre propriedades de estilo não suportadas.
-  ~~~javascript
- console.error
-      Warning: Unsupported style property &:first-child. Did you mean &:firstChild?
-  ~~~
-  ~~~javascript
- console.error
-      Warning: Unsupported style property &:last-child. Did you mean &:lastChild?
   ~~~
 #
 
@@ -159,15 +130,6 @@ Existe uma ***div*** entre uma tag ***p***
           at p
   ~~~
 
-React está reclamando sobre propriedades de estilo não suportadas.
-  ~~~javascript
- console.error
-      Warning: Unsupported style property &:first-child. Did you mean &:firstChild?
-  ~~~
-  ~~~javascript
- console.error
-      Warning: Unsupported style property &:last-child. Did you mean &:lastChild?
-  ~~~
 #
 * <b>ByGroups.test.tsx</b>
 
@@ -194,14 +156,4 @@ Existe uma ***div*** entre uma tag ***p***
           src/components/pages/TicketDetails/components/BadgeContainer/BadgeContainer.tsx:16:3)
           at div
           at p
-  ~~~
-
-React está reclamando sobre propriedades de estilo não suportadas.
-  ~~~javascript
- console.error
-      Warning: Unsupported style property &:first-child. Did you mean &:firstChild?
-  ~~~
-  ~~~javascript
- console.error
-      Warning: Unsupported style property &:last-child. Did you mean &:lastChild?
   ~~~
